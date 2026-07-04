@@ -37,7 +37,7 @@ npm run dev
 
 ## AI chat
 
-The "Ask the model" panel streams Claude responses grounded in the prediction JSON via the Vercel AI SDK. It needs `ANTHROPIC_API_KEY` set in the environment (Vercel → Project → Settings → Environment Variables). Without a key the rest of the site works normally.
+The "Ask the model" panel streams GPT-5.1 responses grounded in the prediction JSON via the Vercel AI SDK. It needs `OPENAI_API_KEY` set in the environment (Vercel → Project → Settings → Environment Variables). Without a key the rest of the site works normally.
 
 ## Disclaimer
 

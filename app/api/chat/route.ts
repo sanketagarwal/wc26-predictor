@@ -1,4 +1,4 @@
-import { anthropic } from "@ai-sdk/anthropic";
+import { openai } from "@ai-sdk/openai";
 import {
   streamText,
   UIMessage,
@@ -30,9 +30,9 @@ function buildContext() {
 }
 
 export async function POST(req: Request) {
-  if (!process.env.ANTHROPIC_API_KEY) {
+  if (!process.env.OPENAI_API_KEY) {
     return Response.json(
-      { error: "Chat is not configured: set ANTHROPIC_API_KEY in the deployment environment." },
+      { error: "Chat is not configured: set OPENAI_API_KEY in the deployment environment." },
       { status: 503 },
     );
   }
@@ -40,7 +40,7 @@ export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
 
   const result = streamText({
-    model: anthropic("claude-sonnet-5"),
+    model: openai("gpt-5.1"),
     system:
       "You are the WC26 Predictor assistant embedded in a World Cup 2026 knockout-stage prediction dashboard. " +
       "Answer questions about the upcoming matches using ONLY the model output below (Elo + Dixon-Coles Poisson " +

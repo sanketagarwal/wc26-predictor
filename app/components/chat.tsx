@@ -24,7 +24,7 @@ export default function Chat() {
     <section className="card p-5 sm:p-6">
       <h2 className="text-lg font-semibold">Ask the model</h2>
       <p className="mt-1 text-[13px]" style={{ color: "var(--muted)" }}>
-        A chat over the prediction data, streamed with the Vercel AI SDK + Claude.
+        A chat over the prediction data, streamed with the Vercel AI SDK.
       </p>
 
       {messages.length === 0 && (
@@ -61,7 +61,7 @@ export default function Chat() {
         ))}
         {error && (
           <div className="rounded-xl px-4 py-3 text-[13px]" style={{ background: "var(--surface-2)", color: "var(--away)" }}>
-            Chat unavailable — the deployment needs an ANTHROPIC_API_KEY environment variable.
+            Chat unavailable — the deployment needs an OPENAI_API_KEY environment variable.
           </div>
         )}
       </div>
