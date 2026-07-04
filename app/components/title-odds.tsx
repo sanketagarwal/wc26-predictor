@@ -7,8 +7,8 @@ export default function TitleOddsChart({ odds, sims }: { odds: TitleOdds[]; sims
     <section className="card p-5 sm:p-6">
       <h2 className="text-lg font-semibold">Who wins the World Cup?</h2>
       <p className="mt-1 text-[13px]" style={{ color: "var(--muted)" }}>
-        {sims.toLocaleString()} Monte Carlo simulations of the remaining bracket, replayed match by
-        match from the model&apos;s advancement probabilities.
+        {sims.toLocaleString()}&nbsp;Monte Carlo simulations of the remaining bracket, replayed match
+        by match from the model&apos;s advancement probabilities.
       </p>
       <div className="mt-4 space-y-2">
         {rows.map((t) => (
@@ -19,7 +19,7 @@ export default function TitleOddsChart({ odds, sims }: { odds: TitleOdds[]; sims
             <div className="h-4 rounded-r-[4px]" style={{ background: "var(--page)" }}>
               <div
                 className="h-full rounded-r-[4px]"
-                style={{ width: `${(t.champion / max) * 100}%`, background: "var(--seq)", minWidth: 2 }}
+                style={{ width: `${(t.champion / max) * 100}%`, background: "var(--home)", minWidth: 2 }}
               />
             </div>
             <span className="tnum font-medium w-24 text-right">
