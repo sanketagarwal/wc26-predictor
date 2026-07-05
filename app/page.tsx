@@ -2,6 +2,7 @@ import predictions from "@/lib/predictions.json";
 import type { Predictions } from "@/lib/types";
 import MatchCard from "./components/match-card";
 import TitleOddsChart from "./components/title-odds";
+import Scorecard from "./components/scorecard";
 import Chat from "./components/chat";
 
 const data = predictions as unknown as Predictions;
@@ -26,6 +27,10 @@ export default function Home() {
           Updated {data.generated}. Model output, not betting advice.
         </p>
       </header>
+
+      <div className="mt-8">
+        <Scorecard entries={data.scorecard} />
+      </div>
 
       <div className="mt-8">
         <TitleOddsChart odds={data.title_odds} sims={data.sims} />

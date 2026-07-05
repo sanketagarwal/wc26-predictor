@@ -1,295 +1,8 @@
 {
- "generated": "2026-07-04",
+ "generated": "2026-07-05",
  "tournament": "FIFA World Cup 2026 \u2014 Round of 16",
  "sims": 20000,
  "matches": [
-  {
-   "home": "Canada",
-   "away": "Morocco",
-   "date": "2026-07-04",
-   "city": "Houston",
-   "country": "United States",
-   "home_field": false,
-   "elo": {
-    "home": 1873,
-    "away": 2021
-   },
-   "form": {
-    "home": "WLWDD",
-    "away": "DWWDD",
-    "home_score": 58.4,
-    "away_score": 70.0
-   },
-   "wc_record": {
-    "home": {
-     "p": 4,
-     "w": 2,
-     "d": 1,
-     "l": 1,
-     "gf": 9,
-     "ga": 3
-    },
-    "away": {
-     "p": 4,
-     "w": 2,
-     "d": 2,
-     "l": 0,
-     "gf": 7,
-     "ga": 4
-    }
-   },
-   "lambdas": {
-    "home": 0.47,
-    "away": 1.58
-   },
-   "prob90": {
-    "home": 9.7,
-    "draw": 26.2,
-    "away": 64.1
-   },
-   "advance": {
-    "home": 19.2,
-    "away": 80.8
-   },
-   "odds": {
-    "home_win90": 10.31,
-    "draw90": 3.81,
-    "away_win90": 1.56,
-    "home_advance": 5.21,
-    "away_advance": 1.24
-   },
-   "likely_scores": [
-    {
-     "score": "0-1",
-     "p": 0.194
-    },
-    {
-     "score": "0-2",
-     "p": 0.161
-    },
-    {
-     "score": "0-0",
-     "p": 0.138
-    }
-   ],
-   "top_scorers": {
-    "home": [
-     {
-      "name": "Jonathan David",
-      "weighted": 10.0,
-      "wc2026_goals": 3
-     },
-     {
-      "name": "Cyle Larin",
-      "weighted": 5.0,
-      "wc2026_goals": 2
-     },
-     {
-      "name": "Nathan Saliba",
-      "weighted": 4.0,
-      "wc2026_goals": 1
-     }
-    ],
-    "away": [
-     {
-      "name": "Ismael Saibari",
-      "weighted": 10.0,
-      "wc2026_goals": 3
-     },
-     {
-      "name": "Ayoub El Kaabi",
-      "weighted": 7.0,
-      "wc2026_goals": 0
-     },
-     {
-      "name": "Brahim D\u00edaz",
-      "weighted": 6.0,
-      "wc2026_goals": 0
-     }
-    ]
-   },
-   "h2h": {
-    "played": 4,
-    "wins_a": 0,
-    "draws": 1,
-    "wins_b": 3,
-    "recent": [
-     {
-      "date": "2022-12-01",
-      "score": "Canada 1-2 Morocco",
-      "tournament": "FIFA World Cup"
-     },
-     {
-      "date": "2016-10-11",
-      "score": "Morocco 4-0 Canada",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1994-06-01",
-      "score": "Canada 1-1 Morocco",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1984-10-24",
-      "score": "Morocco 3-2 Canada",
-      "tournament": "Friendly"
-     }
-    ]
-   },
-   "analysis": [
-    "**Ratings.** Canada enter this tie rated 1873 on our Elo scale against Morocco's 2021 (-148 edge for Canada). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, Houston, United States). That rating gap alone translates to a 29.8% win expectation for Canada before form and finishing are considered.",
-    "**Form and tournament shape.** Canada's last five: W-L-W-D-D (weighted points share 58.4%); Morocco's: D-W-W-D-D (70.0%). At this World Cup Canada are 2W-1D-1L with 9 scored / 3 conceded, while Morocco are 2W-2D-0L (7/4). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=0.47 for Canada and \u03bb=1.58 for Morocco.",
-    "**Key players.** Canada lean on Jonathan David (3 at this World Cup); Morocco lean on Ismael Saibari (3 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Canada, Morocco.",
-    "**Head-to-head.** These sides have met 4 times: 0 wins for Canada, 1 draws, 3 for Morocco. Most recent: Canada 1-2 Morocco (2022); Morocco 4-0 Canada (2016); Canada 1-1 Morocco (1994). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
-    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Canada 9.7% / draw 26.2% / Morocco 64.1% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving Morocco to advance in 80.8% of outcomes. Fair decimal odds: Canada 5.21, Morocco 1.24. Anything materially better than those numbers at a sportsbook would represent model value on Canada."
-   ]
-  },
-  {
-   "home": "Paraguay",
-   "away": "France",
-   "date": "2026-07-04",
-   "city": "Philadelphia",
-   "country": "United States",
-   "home_field": false,
-   "elo": {
-    "home": 1900,
-    "away": 2187
-   },
-   "form": {
-    "home": "DDWLW",
-    "away": "WWWWW",
-    "home_score": 47.8,
-    "away_score": 91.7
-   },
-   "wc_record": {
-    "home": {
-     "p": 4,
-     "w": 1,
-     "d": 2,
-     "l": 1,
-     "gf": 3,
-     "ga": 5
-    },
-    "away": {
-     "p": 4,
-     "w": 4,
-     "d": 0,
-     "l": 0,
-     "gf": 13,
-     "ga": 2
-    }
-   },
-   "lambdas": {
-    "home": 0.44,
-    "away": 2.35
-   },
-   "prob90": {
-    "home": 4.7,
-    "draw": 15.7,
-    "away": 79.6
-   },
-   "advance": {
-    "home": 9.2,
-    "away": 90.8
-   },
-   "odds": {
-    "home_win90": 21.11,
-    "draw90": 6.39,
-    "away_win90": 1.26,
-    "home_advance": 10.83,
-    "away_advance": 1.1
-   },
-   "likely_scores": [
-    {
-     "score": "0-2",
-     "p": 0.169
-    },
-    {
-     "score": "0-1",
-     "p": 0.137
-    },
-    {
-     "score": "0-3",
-     "p": 0.132
-    }
-   ],
-   "top_scorers": {
-    "home": [
-     {
-      "name": "Julio Enciso",
-      "weighted": 6.0,
-      "wc2026_goals": 1
-     },
-     {
-      "name": "Mat\u00edas Galarza",
-      "weighted": 4.0,
-      "wc2026_goals": 1
-     },
-     {
-      "name": "Omar Alderete",
-      "weighted": 3.0,
-      "wc2026_goals": 0
-     }
-    ],
-    "away": [
-     {
-      "name": "Kylian Mbapp\u00e9",
-      "weighted": 20.0,
-      "wc2026_goals": 6
-     },
-     {
-      "name": "Ousmane Demb\u00e9l\u00e9",
-      "weighted": 10.0,
-      "wc2026_goals": 4
-     },
-     {
-      "name": "Bradley Barcola",
-      "weighted": 7.0,
-      "wc2026_goals": 2
-     }
-    ]
-   },
-   "h2h": {
-    "played": 5,
-    "wins_a": 0,
-    "draws": 2,
-    "wins_b": 3,
-    "recent": [
-     {
-      "date": "2017-06-02",
-      "score": "France 5-0 Paraguay",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "2014-06-01",
-      "score": "France 1-1 Paraguay",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "2008-05-31",
-      "score": "France 0-0 Paraguay",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1998-06-28",
-      "score": "France 1-0 Paraguay",
-      "tournament": "FIFA World Cup"
-     },
-     {
-      "date": "1958-06-08",
-      "score": "France 7-3 Paraguay",
-      "tournament": "FIFA World Cup"
-     }
-    ]
-   },
-   "analysis": [
-    "**Ratings.** Paraguay enter this tie rated 1900 on our Elo scale against France's 2187 (-287 edge for Paraguay). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, Philadelphia, United States). That rating gap alone translates to a 16.0% win expectation for Paraguay before form and finishing are considered.",
-    "**Form and tournament shape.** Paraguay's last five: D-D-W-L-W (weighted points share 47.8%); France's: W-W-W-W-W (91.7%). At this World Cup Paraguay are 1W-2D-1L with 3 scored / 5 conceded, while France are 4W-0D-0L (13/2). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=0.44 for Paraguay and \u03bb=2.35 for France.",
-    "**Key players.** Paraguay lean on Julio Enciso (1 at this World Cup); France lean on Kylian Mbapp\u00e9 (6 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to France.",
-    "**Head-to-head.** These sides have met 5 times: 0 wins for Paraguay, 2 draws, 3 for France. Most recent: France 5-0 Paraguay (2017); France 1-1 Paraguay (2014); France 0-0 Paraguay (2008). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
-    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Paraguay 4.7% / draw 15.7% / France 79.6% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving France to advance in 90.8% of outcomes. Fair decimal odds: Paraguay 10.83, France 1.1. Anything materially better than those numbers at a sportsbook would represent model value on Paraguay."
-   ]
-  },
   {
    "home": "Brazil",
    "away": "Norway",
@@ -1142,118 +855,122 @@
    ]
   }
  ],
+ "scorecard": [
+  {
+   "match": "Canada vs Morocco",
+   "result": "Canada 0-3 Morocco",
+   "picked": "Morocco",
+   "prob": 80.8,
+   "correct": true,
+   "note": "Ounahi (50', 82') and Rahimi (90+8') sent Morocco through to a quarter-final against France."
+  },
+  {
+   "match": "Paraguay vs France",
+   "result": "Paraguay 0-1 France",
+   "picked": "France",
+   "prob": 90.8,
+   "correct": true,
+   "note": "Mbapp\u00e9's 70th-minute penalty \u2014 his 7th goal of the tournament \u2014 decided a bruising tie."
+  }
+ ],
  "title_odds": [
   {
    "team": "Argentina",
-   "champion": 31.5,
-   "final": 46.5,
-   "semifinal": 70.4,
-   "odds": 3.18
-  },
-  {
-   "team": "Spain",
-   "champion": 18.7,
-   "final": 30.1,
-   "semifinal": 56.5,
-   "odds": 5.35
+   "champion": 30.6,
+   "final": 47.0,
+   "semifinal": 71.0,
+   "odds": 3.27
   },
   {
    "team": "Morocco",
-   "champion": 14.0,
-   "final": 29.3,
-   "semifinal": 47.1,
-   "odds": 7.16
+   "champion": 18.5,
+   "final": 36.5,
+   "semifinal": 56.4,
+   "odds": 5.4
+  },
+  {
+   "team": "Spain",
+   "champion": 18.4,
+   "final": 30.7,
+   "semifinal": 57.2,
+   "odds": 5.44
   },
   {
    "team": "France",
-   "champion": 11.1,
-   "final": 27.3,
-   "semifinal": 47.0,
-   "odds": 9.0
+   "champion": 11.0,
+   "final": 26.6,
+   "semifinal": 43.6,
+   "odds": 9.09
   },
   {
    "team": "England",
-   "champion": 10.6,
-   "final": 23.2,
-   "semifinal": 44.3,
-   "odds": 9.47
+   "champion": 9.5,
+   "final": 20.8,
+   "semifinal": 43.7,
+   "odds": 10.53
   },
   {
    "team": "Portugal",
-   "champion": 3.7,
-   "final": 8.3,
-   "semifinal": 22.1,
-   "odds": 26.7
+   "champion": 3.4,
+   "final": 8.0,
+   "semifinal": 21.1,
+   "odds": 29.24
   },
   {
    "team": "Brazil",
-   "champion": 2.5,
-   "final": 8.4,
+   "champion": 2.0,
+   "final": 7.2,
    "semifinal": 23.4,
-   "odds": 40.57
+   "odds": 50.38
   },
   {
    "team": "Colombia",
-   "champion": 2.3,
-   "final": 6.3,
-   "semifinal": 17.1,
-   "odds": 42.92
-  },
-  {
-   "team": "Mexico",
    "champion": 2.0,
-   "final": 6.6,
-   "semifinal": 18.5,
-   "odds": 50.63
+   "final": 5.9,
+   "semifinal": 16.7,
+   "odds": 49.75
   },
   {
    "team": "Belgium",
-   "champion": 1.9,
-   "final": 5.3,
-   "semifinal": 18.3,
-   "odds": 53.76
+   "champion": 1.7,
+   "final": 5.1,
+   "semifinal": 18.5,
+   "odds": 58.82
+  },
+  {
+   "team": "Mexico",
+   "champion": 1.5,
+   "final": 5.9,
+   "semifinal": 19.1,
+   "odds": 65.57
   },
   {
    "team": "Norway",
-   "champion": 0.7,
-   "final": 3.8,
-   "semifinal": 13.8,
-   "odds": 134.23
+   "champion": 0.6,
+   "final": 3.0,
+   "semifinal": 13.9,
+   "odds": 157.48
   },
   {
    "team": "Switzerland",
    "champion": 0.5,
    "final": 2.0,
-   "semifinal": 8.1,
-   "odds": 188.68
-  },
-  {
-   "team": "Canada",
-   "champion": 0.2,
-   "final": 1.2,
-   "semifinal": 4.4,
-   "odds": 425.53
+   "semifinal": 8.0,
+   "odds": 194.17
   },
   {
    "team": "Egypt",
    "champion": 0.2,
-   "final": 1.0,
-   "semifinal": 4.4,
-   "odds": 444.44
+   "final": 0.9,
+   "semifinal": 4.3,
+   "odds": 555.56
   },
   {
    "team": "United States",
    "champion": 0.1,
-   "final": 0.4,
+   "final": 0.5,
    "semifinal": 3.2,
-   "odds": 1333.33
-  },
-  {
-   "team": "Paraguay",
-   "champion": 0.0,
-   "final": 0.2,
-   "semifinal": 1.4,
-   "odds": 999.0
+   "odds": 1538.46
   }
  ],
  "elo_top": [
@@ -1267,7 +984,7 @@
   },
   {
    "team": "France",
-   "elo": 2187
+   "elo": 2197
   },
   {
    "team": "England",
@@ -1286,12 +1003,12 @@
    "elo": 2070
   },
   {
-   "team": "Mexico",
-   "elo": 2044
+   "team": "Morocco",
+   "elo": 2053
   },
   {
-   "team": "Morocco",
-   "elo": 2021
+   "team": "Mexico",
+   "elo": 2044
   },
   {
    "team": "Switzerland",
@@ -1311,15 +1028,15 @@
   },
   {
    "team": "Paraguay",
-   "elo": 1900
-  },
-  {
-   "team": "Canada",
-   "elo": 1873
+   "elo": 1890
   },
   {
    "team": "Egypt",
    "elo": 1857
+  },
+  {
+   "team": "Canada",
+   "elo": 1841
   }
  ]
 }

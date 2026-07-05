@@ -42,11 +42,21 @@ export type TitleOdds = {
   odds: number | null;
 };
 
+export type ScorecardEntry = {
+  match: string;
+  result: string;
+  picked: string;
+  prob: number;
+  correct: boolean;
+  note: string;
+};
+
 export type Predictions = {
   generated: string;
   tournament: string;
   sims: number;
   matches: Match[];
+  scorecard: ScorecardEntry[];
   title_odds: TitleOdds[];
   elo_top: { team: string; elo: number }[];
 };

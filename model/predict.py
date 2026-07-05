@@ -29,7 +29,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
 OUT = os.path.join(HERE, "..", "lib", "predictions.json")
 
-TODAY = date(2026, 7, 4)
+TODAY = date(2026, 7, 5)
 
 # ---------------------------------------------------------------- load data
 def parse_date(s):
@@ -317,6 +317,20 @@ BRACKET = [("Paraguay", "France"), ("Canada", "Morocco"),
            ("Portugal", "Spain"), ("United States", "Belgium"),
            ("Argentina", "Egypt"), ("Switzerland", "Colombia")]
 
+# R16 ties already decided on the pitch — fixed in every simulation
+DECIDED = {("Paraguay", "France"): "France",
+           ("Canada", "Morocco"): "Morocco"}
+
+# published pre-match advancement probabilities, kept as the honest record
+SCORECARD = [
+    {"match": "Canada vs Morocco", "result": "Canada 0-3 Morocco",
+     "picked": "Morocco", "prob": 80.8, "correct": True,
+     "note": "Ounahi (50', 82') and Rahimi (90+8') sent Morocco through to a quarter-final against France."},
+    {"match": "Paraguay vs France", "result": "Paraguay 0-1 France",
+     "picked": "France", "prob": 90.8, "correct": True,
+     "note": "Mbappé's 70th-minute penalty — his 7th goal of the tournament — decided a bruising tie."},
+]
+
 adv_cache = {}
 def p_adv(a, b, host_a):
     key = (a, b, host_a)
@@ -331,6 +345,9 @@ counts = defaultdict(lambda: {"qf": 0, "sf": 0, "final": 0, "champion": 0})
 for _ in range(SIMS):
     r16 = []
     for a, b in BRACKET:
+        if (a, b) in DECIDED:
+            r16.append(DECIDED[(a, b)])
+            continue
         # home-field only when the fixture is genuinely home (Mexico in Mexico City, USA in Seattle)
         hf = (a == "Mexico") or (a == "United States")
         r16.append(a if random.random() < p_adv(a, b, hf) else b)
@@ -361,6 +378,7 @@ out = {
     "tournament": "FIFA World Cup 2026 — Round of 16",
     "sims": SIMS,
     "matches": cards,
+    "scorecard": SCORECARD,
     "title_odds": title_odds,
     "elo_top": sorted(({"team": t, "elo": round(e)} for t, e in elo.items()
                        if t in {x for p in BRACKET for x in p}), key=lambda x: -x["elo"]),
