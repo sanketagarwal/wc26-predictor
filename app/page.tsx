@@ -17,7 +17,7 @@ export default function Home() {
     <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:py-14">
       <header>
         <p className="text-[13px] font-medium uppercase tracking-widest" style={{ color: "var(--home)" }}>
-          FIFA World Cup 2026 · Round of 16
+          FIFA World Cup 2026 · Knockout Stage
         </p>
         <h1 className="mt-2 text-3xl sm:text-4xl font-bold tracking-tight">WC26 Predictor</h1>
         <p className="mt-3 text-[15px] leading-relaxed" style={{ color: "var(--ink-2)" }}>

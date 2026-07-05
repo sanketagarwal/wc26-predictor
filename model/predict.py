@@ -287,11 +287,17 @@ def analysis_text(home, away, r, home_field, city, country, when):
     return paras
 
 # ------------------------------------------------- build match cards
+def stage_of(when):
+    if when >= "2026-07-14": return "Semi-final"
+    if when >= "2026-07-09": return "Quarter-final"
+    return "Round of 16"
+
 cards = []
 for home, away, when, city, country, home_field in R16:
     r = advance_prob(home, away, home_field)
     cards.append({
         "home": home, "away": away, "date": when, "city": city, "country": country,
+        "stage": stage_of(when),
         "home_field": home_field,
         "elo": {"home": round(elo[home]), "away": round(elo[away])},
         "form": {"home": form_string(home), "away": form_string(away),
@@ -375,7 +381,7 @@ title_odds = sorted(
 # ------------------------------------------------- write
 out = {
     "generated": TODAY.isoformat(),
-    "tournament": "FIFA World Cup 2026 — Round of 16",
+    "tournament": "FIFA World Cup 2026 — Knockout Stage",
     "sims": SIMS,
     "matches": cards,
     "scorecard": SCORECARD,

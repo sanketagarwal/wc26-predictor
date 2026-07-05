@@ -1,6 +1,6 @@
 {
  "generated": "2026-07-05",
- "tournament": "FIFA World Cup 2026 \u2014 Round of 16",
+ "tournament": "FIFA World Cup 2026 \u2014 Knockout Stage",
  "sims": 20000,
  "matches": [
   {
@@ -9,6 +9,7 @@
    "date": "2026-07-05",
    "city": "East Rutherford",
    "country": "United States",
+   "stage": "Round of 16",
    "home_field": false,
    "elo": {
     "home": 2106,
@@ -150,6 +151,7 @@
    "date": "2026-07-05",
    "city": "Mexico City",
    "country": "Mexico",
+   "stage": "Round of 16",
    "home_field": true,
    "elo": {
     "home": 2044,
@@ -296,6 +298,7 @@
    "date": "2026-07-06",
    "city": "Atlanta",
    "country": "United States",
+   "stage": "Round of 16",
    "home_field": false,
    "elo": {
     "home": 2216,
@@ -427,6 +430,7 @@
    "date": "2026-07-06",
    "city": "Dallas",
    "country": "United States",
+   "stage": "Round of 16",
    "home_field": false,
    "elo": {
     "home": 2070,
@@ -573,6 +577,7 @@
    "date": "2026-07-06",
    "city": "Seattle",
    "country": "United States",
+   "stage": "Round of 16",
    "home_field": true,
    "elo": {
     "home": 1903,
@@ -719,6 +724,7 @@
    "date": "2026-07-06",
    "city": "Vancouver",
    "country": "Canada",
+   "stage": "Round of 16",
    "home_field": false,
    "elo": {
     "home": 2015,
@@ -852,6 +858,153 @@
     "**Key players.** Switzerland lean on Breel Embolo (2 at this World Cup); Colombia lean on Luis D\u00edaz (1 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Switzerland.",
     "**Head-to-head.** These sides have met 4 times: 1 wins for Switzerland, 1 draws, 2 for Colombia. Most recent: Colombia 3-1 Switzerland (2007); Switzerland 0-2 Colombia (1994); Colombia 2-3 Switzerland (1991). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
     "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Switzerland 27.1% / draw 27.7% / Colombia 45.1% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving Colombia to advance in 60.3% of outcomes. Fair decimal odds: Switzerland 2.52, Colombia 1.66. Anything materially better than those numbers at a sportsbook would represent model value on Colombia."
+   ]
+  },
+  {
+   "home": "France",
+   "away": "Morocco",
+   "date": "2026-07-09",
+   "city": "Foxborough",
+   "country": "United States",
+   "stage": "Quarter-final",
+   "home_field": false,
+   "elo": {
+    "home": 2197,
+    "away": 2053
+   },
+   "form": {
+    "home": "WWWWW",
+    "away": "WDWWD",
+    "home_score": 93.0,
+    "away_score": 74.5
+   },
+   "wc_record": {
+    "home": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 14,
+     "ga": 2
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 2,
+     "l": 0,
+     "gf": 10,
+     "ga": 4
+    }
+   },
+   "lambdas": {
+    "home": 0.91,
+    "away": 1.15
+   },
+   "prob90": {
+    "home": 27.4,
+    "draw": 32.7,
+    "away": 39.9
+   },
+   "advance": {
+    "home": 42.7,
+    "away": 57.3
+   },
+   "odds": {
+    "home_win90": 3.65,
+    "draw90": 3.06,
+    "away_win90": 2.5,
+    "home_advance": 2.34,
+    "away_advance": 1.75
+   },
+   "likely_scores": [
+    {
+     "score": "1-1",
+     "p": 0.147
+    },
+    {
+     "score": "0-0",
+     "p": 0.141
+    },
+    {
+     "score": "0-1",
+     "p": 0.133
+    }
+   ],
+   "top_scorers": {
+    "home": [
+     {
+      "name": "Kylian Mbapp\u00e9",
+      "weighted": 22.0,
+      "wc2026_goals": 7
+     },
+     {
+      "name": "Ousmane Demb\u00e9l\u00e9",
+      "weighted": 10.0,
+      "wc2026_goals": 4
+     },
+     {
+      "name": "Bradley Barcola",
+      "weighted": 7.0,
+      "wc2026_goals": 2
+     }
+    ],
+    "away": [
+     {
+      "name": "Ismael Saibari",
+      "weighted": 10.0,
+      "wc2026_goals": 3
+     },
+     {
+      "name": "Azzedine Ounahi",
+      "weighted": 7.0,
+      "wc2026_goals": 2
+     },
+     {
+      "name": "Ayoub El Kaabi",
+      "weighted": 7.0,
+      "wc2026_goals": 0
+     }
+    ]
+   },
+   "h2h": {
+    "played": 6,
+    "wins_a": 4,
+    "draws": 2,
+    "wins_b": 0,
+    "recent": [
+     {
+      "date": "2022-12-14",
+      "score": "France 2-0 Morocco",
+      "tournament": "FIFA World Cup"
+     },
+     {
+      "date": "2007-11-16",
+      "score": "France 2-2 Morocco",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "2000-06-06",
+      "score": "Morocco 1-5 France",
+      "tournament": "King Hassan II Tournament"
+     },
+     {
+      "date": "1999-01-20",
+      "score": "France 1-0 Morocco",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1998-05-29",
+      "score": "Morocco 2-2 France",
+      "tournament": "King Hassan II Tournament"
+     }
+    ]
+   },
+   "analysis": [
+    "**Ratings.** France enter this tie rated 2197 on our Elo scale against Morocco's 2053 (+144 edge for France). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, Foxborough, United States). That rating gap alone translates to a 69.7% win expectation for France before form and finishing are considered.",
+    "**Form and tournament shape.** France's last five: W-W-W-W-W (weighted points share 93.0%); Morocco's: W-D-W-W-D (74.5%). At this World Cup France are 5W-0D-0L with 14 scored / 2 conceded, while Morocco are 3W-2D-0L (10/4). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=0.91 for France and \u03bb=1.15 for Morocco.",
+    "**Key players.** France lean on Kylian Mbapp\u00e9 (7 at this World Cup); Morocco lean on Ismael Saibari (3 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to France, Morocco.",
+    "**Head-to-head.** These sides have met 6 times: 4 wins for France, 2 draws, 0 for Morocco. Most recent: France 2-0 Morocco (2022); France 2-2 Morocco (2007); Morocco 1-5 France (2000). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
+    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives France 27.4% / draw 32.7% / Morocco 39.9% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving Morocco to advance in 57.3% of outcomes. Fair decimal odds: France 2.34, Morocco 1.75. Anything materially better than those numbers at a sportsbook would represent model value on Morocco."
    ]
   }
  ],

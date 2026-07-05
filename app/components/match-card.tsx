@@ -33,6 +33,10 @@ export default function MatchCard({ match }: { match: Match }) {
     <article className="card p-5 sm:p-6">
       {/* header */}
       <div className="flex flex-wrap items-center gap-2 text-[12px]" style={{ color: "var(--muted)" }}>
+        <span className="font-semibold uppercase tracking-wide" style={{ color: "var(--ink-2)" }}>
+          {m.stage}
+        </span>
+        <span aria-hidden>·</span>
         <span className="tnum">{m.date}</span>
         <span aria-hidden>·</span>
         <span>

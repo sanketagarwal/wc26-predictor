@@ -8,6 +8,7 @@ export type Match = {
   date: string;
   city: string;
   country: string;
+  stage: string;
   home_field: boolean;
   elo: { home: number; away: number };
   form: { home: string; away: string; home_score: number; away_score: number };
