@@ -1,11 +1,13 @@
 import predictions from "@/lib/predictions.json";
-import type { Predictions } from "@/lib/types";
+import played from "@/lib/played.json";
+import type { Match, Predictions } from "@/lib/types";
 import MatchCard from "./components/match-card";
 import TitleOddsChart from "./components/title-odds";
 import Scorecard from "./components/scorecard";
 import Chat from "./components/chat";
 
 const data = predictions as unknown as Predictions;
+const playedMatches = played.matches as unknown as Match[];
 
 export default function Home() {
   const byDate = new Map<string, typeof data.matches>();
@@ -53,6 +55,17 @@ export default function Home() {
           </div>
         </section>
       ))}
+
+      <section className="mt-12">
+        <h2 className="text-[13px] font-semibold uppercase tracking-widest" style={{ color: "var(--muted)" }}>
+          Completed matches — the model&apos;s pre-match view
+        </h2>
+        <div className="mt-3 space-y-5">
+          {playedMatches.map((m) => (
+            <MatchCard key={`${m.home}-${m.away}`} match={m} />
+          ))}
+        </div>
+      </section>
 
       <div className="mt-10">
         <Chat />

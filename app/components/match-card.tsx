@@ -77,6 +77,35 @@ export default function MatchCard({ match }: { match: Match }) {
         </div>
       </div>
 
+      {/* full-time result banner (played matches) */}
+      {m.result && (
+        <div
+          className="mt-4 rounded-xl border px-4 py-3"
+          style={{ borderColor: "var(--hairline)", background: "var(--page)" }}
+        >
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-[11px] font-semibold uppercase tracking-widest" style={{ color: "var(--muted)" }}>
+              Full time
+            </span>
+            <span className="text-lg font-bold tnum">
+              {m.home} {m.result.score} {m.away}
+            </span>
+            <span
+              className="ml-auto rounded-md px-2 py-0.5 text-[11px] font-medium"
+              style={{
+                background: m.result.correct ? "rgba(12,163,12,0.15)" : "rgba(230,103,103,0.15)",
+                color: m.result.correct ? "var(--good)" : "var(--away)",
+              }}
+            >
+              {m.result.correct ? "✓" : "✗"} model picked {m.result.picked} at {m.result.prob}%
+            </span>
+          </div>
+          <p className="mt-1.5 text-[13px]" style={{ color: "var(--muted)" }}>
+            {m.result.note}
+          </p>
+        </div>
+      )}
+
       {/* advance probability — headline numbers */}
       <div className="mt-4 flex items-end justify-between">
         <span className="text-3xl font-bold tnum" style={{ color: "var(--home)" }}>

@@ -1,0 +1,614 @@
+{
+ "matches": [
+  {
+   "home": "Brazil",
+   "away": "Norway",
+   "date": "2026-07-05",
+   "city": "East Rutherford",
+   "country": "United States",
+   "home_field": false,
+   "elo": {
+    "home": 2106,
+    "away": 1998
+   },
+   "form": {
+    "home": "WWWDW",
+    "away": "WLWWD",
+    "home_score": 83.0,
+    "away_score": 66.9
+   },
+   "wc_record": {
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 9,
+     "ga": 2
+    },
+    "away": {
+     "p": 4,
+     "w": 3,
+     "d": 0,
+     "l": 1,
+     "gf": 10,
+     "ga": 8
+    }
+   },
+   "lambdas": {
+    "home": 2.07,
+    "away": 1.7
+   },
+   "prob90": {
+    "home": 45.8,
+    "draw": 22.7,
+    "away": 31.5
+   },
+   "advance": {
+    "home": 58.0,
+    "away": 42.0
+   },
+   "odds": {
+    "home_win90": 2.18,
+    "draw90": 4.41,
+    "away_win90": 3.18,
+    "home_advance": 1.72,
+    "away_advance": 2.38
+   },
+   "likely_scores": [
+    {
+     "score": "1-1",
+     "p": 0.089
+    },
+    {
+     "score": "2-1",
+     "p": 0.084
+    },
+    {
+     "score": "2-2",
+     "p": 0.071
+    }
+   ],
+   "top_scorers": {
+    "home": [
+     {
+      "name": "Vin\u00edcius J\u00fanior",
+      "weighted": 12.0,
+      "wc2026_goals": 4
+     },
+     {
+      "name": "Matheus Cunha",
+      "weighted": 7.0,
+      "wc2026_goals": 3
+     },
+     {
+      "name": "Raphinha",
+      "weighted": 5.0,
+      "wc2026_goals": 0
+     }
+    ],
+    "away": [
+     {
+      "name": "Erling Haaland",
+      "weighted": 33.0,
+      "wc2026_goals": 5
+     },
+     {
+      "name": "Alexander S\u00f8rloth",
+      "weighted": 8.0,
+      "wc2026_goals": 0
+     },
+     {
+      "name": "Antonio Nusa",
+      "weighted": 7.0,
+      "wc2026_goals": 1
+     }
+    ]
+   },
+   "h2h": {
+    "played": 4,
+    "wins_a": 0,
+    "draws": 2,
+    "wins_b": 2,
+    "recent": [
+     {
+      "date": "2006-08-16",
+      "score": "Norway 1-1 Brazil",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1998-06-23",
+      "score": "Brazil 1-2 Norway",
+      "tournament": "FIFA World Cup"
+     },
+     {
+      "date": "1997-05-30",
+      "score": "Norway 4-2 Brazil",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1988-07-28",
+      "score": "Norway 1-1 Brazil",
+      "tournament": "Friendly"
+     }
+    ]
+   },
+   "analysis": [
+    "**Ratings.** Brazil enter this tie rated 2106 on our Elo scale against Norway's 1998 (+108 edge for Brazil). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, East Rutherford, United States). That rating gap alone translates to a 65.1% win expectation for Brazil before form and finishing are considered.",
+    "**Form and tournament shape.** Brazil's last five: W-W-W-D-W (weighted points share 83.0%); Norway's: W-L-W-W-D (66.9%). At this World Cup Brazil are 3W-1D-0L with 9 scored / 2 conceded, while Norway are 3W-0D-1L (10/8). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=2.07 for Brazil and \u03bb=1.70 for Norway.",
+    "**Key players.** Brazil lean on Vin\u00edcius J\u00fanior (4 at this World Cup); Norway lean on Erling Haaland (5 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Brazil, Norway.",
+    "**Head-to-head.** These sides have met 4 times: 0 wins for Brazil, 2 draws, 2 for Norway. Most recent: Norway 1-1 Brazil (2006); Brazil 1-2 Norway (1998); Norway 4-2 Brazil (1997). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
+    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Brazil 45.8% / draw 22.7% / Norway 31.5% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving Brazil to advance in 58.0% of outcomes. Fair decimal odds: Brazil 1.72, Norway 2.38. Anything materially better than those numbers at a sportsbook would represent model value on Brazil."
+   ],
+   "stage": "Round of 16",
+   "result": {
+    "score": "1-2",
+    "winner": "Norway",
+    "correct": false,
+    "note": "The 42% shot landed. Haaland struck twice in the final 11 minutes after Guimar\u00e3es missed an early penalty; Neymar's stoppage-time spot-kick came too late.",
+    "picked": "Brazil",
+    "prob": 58.0
+   }
+  },
+  {
+   "home": "Mexico",
+   "away": "England",
+   "date": "2026-07-05",
+   "city": "Mexico City",
+   "country": "Mexico",
+   "home_field": true,
+   "elo": {
+    "home": 2044,
+    "away": 2109
+   },
+   "form": {
+    "home": "WWWWW",
+    "away": "WWDWW",
+    "home_score": 92.6,
+    "away_score": 80.0
+   },
+   "wc_record": {
+    "home": {
+     "p": 4,
+     "w": 4,
+     "d": 0,
+     "l": 0,
+     "gf": 8,
+     "ga": 0
+    },
+    "away": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 8,
+     "ga": 3
+    }
+   },
+   "lambdas": {
+    "home": 0.74,
+    "away": 1.15
+   },
+   "prob90": {
+    "home": 22.3,
+    "draw": 33.5,
+    "away": 44.2
+   },
+   "advance": {
+    "home": 37.3,
+    "away": 62.7
+   },
+   "odds": {
+    "home_win90": 4.49,
+    "draw90": 2.98,
+    "away_win90": 2.26,
+    "home_advance": 2.68,
+    "away_advance": 1.59
+   },
+   "likely_scores": [
+    {
+     "score": "0-0",
+     "p": 0.164
+    },
+    {
+     "score": "0-1",
+     "p": 0.161
+    },
+    {
+     "score": "1-1",
+     "p": 0.141
+    }
+   ],
+   "top_scorers": {
+    "home": [
+     {
+      "name": "Ra\u00fal Jim\u00e9nez",
+      "weighted": 7.0,
+      "wc2026_goals": 2
+     },
+     {
+      "name": "Juli\u00e1n Qui\u00f1ones",
+      "weighted": 6.0,
+      "wc2026_goals": 3
+     },
+     {
+      "name": "C\u00e9sar Montes",
+      "weighted": 3.0,
+      "wc2026_goals": 0
+     }
+    ],
+    "away": [
+     {
+      "name": "Harry Kane",
+      "weighted": 24.0,
+      "wc2026_goals": 5
+     },
+     {
+      "name": "Jude Bellingham",
+      "weighted": 7.0,
+      "wc2026_goals": 2
+     },
+     {
+      "name": "Declan Rice",
+      "weighted": 3.0,
+      "wc2026_goals": 0
+     }
+    ]
+   },
+   "h2h": {
+    "played": 10,
+    "wins_a": 2,
+    "draws": 1,
+    "wins_b": 7,
+    "recent": [
+     {
+      "date": "2010-05-24",
+      "score": "England 3-1 Mexico",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "2001-05-25",
+      "score": "England 4-0 Mexico",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1997-03-29",
+      "score": "England 2-0 Mexico",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1986-05-17",
+      "score": "Mexico 0-3 England",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1985-06-09",
+      "score": "Mexico 1-0 England",
+      "tournament": "Friendly"
+     }
+    ]
+   },
+   "analysis": [
+    "**Ratings.** Mexico enter this tie rated 2044 on our Elo scale against England's 2109 (-65 edge for Mexico). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus \u2014 which applies, as Mexico play on home soil in Mexico City. That rating gap alone translates to a 52.2% win expectation for Mexico before form and finishing are considered.",
+    "**Form and tournament shape.** Mexico's last five: W-W-W-W-W (weighted points share 92.6%); England's: W-W-D-W-W (80.0%). At this World Cup Mexico are 4W-0D-0L with 8 scored / 0 conceded, while England are 3W-1D-0L (8/3). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=0.74 for Mexico and \u03bb=1.15 for England.",
+    "**Key players.** Mexico lean on Ra\u00fal Jim\u00e9nez (2 at this World Cup); England lean on Harry Kane (5 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Mexico, England.",
+    "**Head-to-head.** These sides have met 10 times: 2 wins for Mexico, 1 draws, 7 for England. Most recent: England 3-1 Mexico (2010); England 4-0 Mexico (2001); England 2-0 Mexico (1997). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
+    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Mexico 22.3% / draw 33.5% / England 44.2% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving England to advance in 62.7% of outcomes. Fair decimal odds: Mexico 2.68, England 1.59. Anything materially better than those numbers at a sportsbook would represent model value on Mexico."
+   ],
+   "stage": "Round of 16",
+   "result": {
+    "score": "2-3",
+    "winner": "England",
+    "correct": true,
+    "note": "Bellingham's quickfire double (36', 38') and a Kane penalty outgunned the Azteca in what many called the game of the tournament.",
+    "picked": "England",
+    "prob": 62.7
+   }
+  },
+  {
+   "home": "Canada",
+   "away": "Morocco",
+   "date": "2026-07-04",
+   "city": "Houston",
+   "country": "United States",
+   "home_field": false,
+   "elo": {
+    "home": 1873,
+    "away": 2021
+   },
+   "form": {
+    "home": "WLWDD",
+    "away": "DWWDD",
+    "home_score": 58.4,
+    "away_score": 70.0
+   },
+   "wc_record": {
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 9,
+     "ga": 3
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 2,
+     "l": 0,
+     "gf": 7,
+     "ga": 4
+    }
+   },
+   "lambdas": {
+    "home": 0.47,
+    "away": 1.58
+   },
+   "prob90": {
+    "home": 9.7,
+    "draw": 26.2,
+    "away": 64.1
+   },
+   "advance": {
+    "home": 19.2,
+    "away": 80.8
+   },
+   "odds": {
+    "home_win90": 10.31,
+    "draw90": 3.81,
+    "away_win90": 1.56,
+    "home_advance": 5.21,
+    "away_advance": 1.24
+   },
+   "likely_scores": [
+    {
+     "score": "0-1",
+     "p": 0.194
+    },
+    {
+     "score": "0-2",
+     "p": 0.161
+    },
+    {
+     "score": "0-0",
+     "p": 0.138
+    }
+   ],
+   "top_scorers": {
+    "home": [
+     {
+      "name": "Jonathan David",
+      "weighted": 10.0,
+      "wc2026_goals": 3
+     },
+     {
+      "name": "Cyle Larin",
+      "weighted": 5.0,
+      "wc2026_goals": 2
+     },
+     {
+      "name": "Nathan Saliba",
+      "weighted": 4.0,
+      "wc2026_goals": 1
+     }
+    ],
+    "away": [
+     {
+      "name": "Ismael Saibari",
+      "weighted": 10.0,
+      "wc2026_goals": 3
+     },
+     {
+      "name": "Ayoub El Kaabi",
+      "weighted": 7.0,
+      "wc2026_goals": 0
+     },
+     {
+      "name": "Brahim D\u00edaz",
+      "weighted": 6.0,
+      "wc2026_goals": 0
+     }
+    ]
+   },
+   "h2h": {
+    "played": 4,
+    "wins_a": 0,
+    "draws": 1,
+    "wins_b": 3,
+    "recent": [
+     {
+      "date": "2022-12-01",
+      "score": "Canada 1-2 Morocco",
+      "tournament": "FIFA World Cup"
+     },
+     {
+      "date": "2016-10-11",
+      "score": "Morocco 4-0 Canada",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1994-06-01",
+      "score": "Canada 1-1 Morocco",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1984-10-24",
+      "score": "Morocco 3-2 Canada",
+      "tournament": "Friendly"
+     }
+    ]
+   },
+   "analysis": [
+    "**Ratings.** Canada enter this tie rated 1873 on our Elo scale against Morocco's 2021 (-148 edge for Canada). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, Houston, United States). That rating gap alone translates to a 29.8% win expectation for Canada before form and finishing are considered.",
+    "**Form and tournament shape.** Canada's last five: W-L-W-D-D (weighted points share 58.4%); Morocco's: D-W-W-D-D (70.0%). At this World Cup Canada are 2W-1D-1L with 9 scored / 3 conceded, while Morocco are 2W-2D-0L (7/4). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=0.47 for Canada and \u03bb=1.58 for Morocco.",
+    "**Key players.** Canada lean on Jonathan David (3 at this World Cup); Morocco lean on Ismael Saibari (3 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Canada, Morocco.",
+    "**Head-to-head.** These sides have met 4 times: 0 wins for Canada, 1 draws, 3 for Morocco. Most recent: Canada 1-2 Morocco (2022); Morocco 4-0 Canada (2016); Canada 1-1 Morocco (1994). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
+    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Canada 9.7% / draw 26.2% / Morocco 64.1% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving Morocco to advance in 80.8% of outcomes. Fair decimal odds: Canada 5.21, Morocco 1.24. Anything materially better than those numbers at a sportsbook would represent model value on Canada."
+   ],
+   "stage": "Round of 16",
+   "result": {
+    "score": "0-3",
+    "winner": "Morocco",
+    "correct": true,
+    "note": "Ounahi (50', 82') and Rahimi (90+8') sent Morocco through to a quarter-final against France.",
+    "picked": "Morocco",
+    "prob": 80.8
+   }
+  },
+  {
+   "home": "Paraguay",
+   "away": "France",
+   "date": "2026-07-04",
+   "city": "Philadelphia",
+   "country": "United States",
+   "home_field": false,
+   "elo": {
+    "home": 1900,
+    "away": 2187
+   },
+   "form": {
+    "home": "DDWLW",
+    "away": "WWWWW",
+    "home_score": 47.8,
+    "away_score": 91.7
+   },
+   "wc_record": {
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 3,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 4,
+     "d": 0,
+     "l": 0,
+     "gf": 13,
+     "ga": 2
+    }
+   },
+   "lambdas": {
+    "home": 0.44,
+    "away": 2.35
+   },
+   "prob90": {
+    "home": 4.7,
+    "draw": 15.7,
+    "away": 79.6
+   },
+   "advance": {
+    "home": 9.2,
+    "away": 90.8
+   },
+   "odds": {
+    "home_win90": 21.11,
+    "draw90": 6.39,
+    "away_win90": 1.26,
+    "home_advance": 10.83,
+    "away_advance": 1.1
+   },
+   "likely_scores": [
+    {
+     "score": "0-2",
+     "p": 0.169
+    },
+    {
+     "score": "0-1",
+     "p": 0.137
+    },
+    {
+     "score": "0-3",
+     "p": 0.132
+    }
+   ],
+   "top_scorers": {
+    "home": [
+     {
+      "name": "Julio Enciso",
+      "weighted": 6.0,
+      "wc2026_goals": 1
+     },
+     {
+      "name": "Mat\u00edas Galarza",
+      "weighted": 4.0,
+      "wc2026_goals": 1
+     },
+     {
+      "name": "Omar Alderete",
+      "weighted": 3.0,
+      "wc2026_goals": 0
+     }
+    ],
+    "away": [
+     {
+      "name": "Kylian Mbapp\u00e9",
+      "weighted": 20.0,
+      "wc2026_goals": 6
+     },
+     {
+      "name": "Ousmane Demb\u00e9l\u00e9",
+      "weighted": 10.0,
+      "wc2026_goals": 4
+     },
+     {
+      "name": "Bradley Barcola",
+      "weighted": 7.0,
+      "wc2026_goals": 2
+     }
+    ]
+   },
+   "h2h": {
+    "played": 5,
+    "wins_a": 0,
+    "draws": 2,
+    "wins_b": 3,
+    "recent": [
+     {
+      "date": "2017-06-02",
+      "score": "France 5-0 Paraguay",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "2014-06-01",
+      "score": "France 1-1 Paraguay",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "2008-05-31",
+      "score": "France 0-0 Paraguay",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1998-06-28",
+      "score": "France 1-0 Paraguay",
+      "tournament": "FIFA World Cup"
+     },
+     {
+      "date": "1958-06-08",
+      "score": "France 7-3 Paraguay",
+      "tournament": "FIFA World Cup"
+     }
+    ]
+   },
+   "analysis": [
+    "**Ratings.** Paraguay enter this tie rated 1900 on our Elo scale against France's 2187 (-287 edge for Paraguay). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, Philadelphia, United States). That rating gap alone translates to a 16.0% win expectation for Paraguay before form and finishing are considered.",
+    "**Form and tournament shape.** Paraguay's last five: D-D-W-L-W (weighted points share 47.8%); France's: W-W-W-W-W (91.7%). At this World Cup Paraguay are 1W-2D-1L with 3 scored / 5 conceded, while France are 4W-0D-0L (13/2). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=0.44 for Paraguay and \u03bb=2.35 for France.",
+    "**Key players.** Paraguay lean on Julio Enciso (1 at this World Cup); France lean on Kylian Mbapp\u00e9 (6 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to France.",
+    "**Head-to-head.** These sides have met 5 times: 0 wins for Paraguay, 2 draws, 3 for France. Most recent: France 5-0 Paraguay (2017); France 1-1 Paraguay (2014); France 0-0 Paraguay (2008). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
+    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Paraguay 4.7% / draw 15.7% / France 79.6% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving France to advance in 90.8% of outcomes. Fair decimal odds: Paraguay 10.83, France 1.1. Anything materially better than those numbers at a sportsbook would represent model value on Paraguay."
+   ],
+   "stage": "Round of 16",
+   "result": {
+    "score": "0-1",
+    "winner": "France",
+    "correct": true,
+    "note": "Mbapp\u00e9's 70th-minute penalty \u2014 his 7th goal of the tournament \u2014 decided a bruising tie.",
+    "picked": "France",
+    "prob": 90.8
+   }
+  }
+ ]
+}

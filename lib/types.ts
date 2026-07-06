@@ -33,6 +33,16 @@ export type Match = {
     recent: { date: string; score: string; tournament: string }[];
   };
   analysis: string[];
+  result?: MatchResult;
+};
+
+export type MatchResult = {
+  score: string;
+  winner: string;
+  correct: boolean;
+  note: string;
+  picked: string;
+  prob: number;
 };
 
 export type TitleOdds = {
