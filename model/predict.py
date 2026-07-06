@@ -29,7 +29,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
 OUT = os.path.join(HERE, "..", "lib", "predictions.json")
 
-TODAY = date(2026, 7, 5)
+TODAY = date(2026, 7, 6)
 
 # ---------------------------------------------------------------- load data
 def parse_date(s):
@@ -325,7 +325,9 @@ BRACKET = [("Paraguay", "France"), ("Canada", "Morocco"),
 
 # R16 ties already decided on the pitch — fixed in every simulation
 DECIDED = {("Paraguay", "France"): "France",
-           ("Canada", "Morocco"): "Morocco"}
+           ("Canada", "Morocco"): "Morocco",
+           ("Brazil", "Norway"): "Norway",
+           ("Mexico", "England"): "England"}
 
 # published pre-match advancement probabilities, kept as the honest record
 SCORECARD = [
@@ -335,6 +337,12 @@ SCORECARD = [
     {"match": "Paraguay vs France", "result": "Paraguay 0-1 France",
      "picked": "France", "prob": 90.8, "correct": True,
      "note": "Mbappé's 70th-minute penalty — his 7th goal of the tournament — decided a bruising tie."},
+    {"match": "Brazil vs Norway", "result": "Brazil 1-2 Norway",
+     "picked": "Brazil", "prob": 58.0, "correct": False,
+     "note": "The 42% shot landed. Haaland struck twice in the final 11 minutes (79', 90') after Guimarães missed an early penalty; Neymar's stoppage-time spot-kick came too late. Norway's first quarter-final in their first World Cup for 28 years."},
+    {"match": "Mexico vs England", "result": "Mexico 2-3 England",
+     "picked": "England", "prob": 62.7, "correct": True,
+     "note": "Bellingham's quickfire double (36', 38') and a Kane penalty outgunned the Azteca in what many called the game of the tournament."},
 ]
 
 adv_cache = {}

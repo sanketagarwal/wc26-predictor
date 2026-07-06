@@ -1,297 +1,8 @@
 {
- "generated": "2026-07-05",
+ "generated": "2026-07-06",
  "tournament": "FIFA World Cup 2026 \u2014 Knockout Stage",
  "sims": 20000,
  "matches": [
-  {
-   "home": "Brazil",
-   "away": "Norway",
-   "date": "2026-07-05",
-   "city": "East Rutherford",
-   "country": "United States",
-   "stage": "Round of 16",
-   "home_field": false,
-   "elo": {
-    "home": 2106,
-    "away": 1998
-   },
-   "form": {
-    "home": "WWWDW",
-    "away": "WLWWD",
-    "home_score": 83.0,
-    "away_score": 66.9
-   },
-   "wc_record": {
-    "home": {
-     "p": 4,
-     "w": 3,
-     "d": 1,
-     "l": 0,
-     "gf": 9,
-     "ga": 2
-    },
-    "away": {
-     "p": 4,
-     "w": 3,
-     "d": 0,
-     "l": 1,
-     "gf": 10,
-     "ga": 8
-    }
-   },
-   "lambdas": {
-    "home": 2.07,
-    "away": 1.7
-   },
-   "prob90": {
-    "home": 45.8,
-    "draw": 22.7,
-    "away": 31.5
-   },
-   "advance": {
-    "home": 58.0,
-    "away": 42.0
-   },
-   "odds": {
-    "home_win90": 2.18,
-    "draw90": 4.41,
-    "away_win90": 3.18,
-    "home_advance": 1.72,
-    "away_advance": 2.38
-   },
-   "likely_scores": [
-    {
-     "score": "1-1",
-     "p": 0.089
-    },
-    {
-     "score": "2-1",
-     "p": 0.084
-    },
-    {
-     "score": "2-2",
-     "p": 0.071
-    }
-   ],
-   "top_scorers": {
-    "home": [
-     {
-      "name": "Vin\u00edcius J\u00fanior",
-      "weighted": 12.0,
-      "wc2026_goals": 4
-     },
-     {
-      "name": "Matheus Cunha",
-      "weighted": 7.0,
-      "wc2026_goals": 3
-     },
-     {
-      "name": "Raphinha",
-      "weighted": 5.0,
-      "wc2026_goals": 0
-     }
-    ],
-    "away": [
-     {
-      "name": "Erling Haaland",
-      "weighted": 33.0,
-      "wc2026_goals": 5
-     },
-     {
-      "name": "Alexander S\u00f8rloth",
-      "weighted": 8.0,
-      "wc2026_goals": 0
-     },
-     {
-      "name": "Antonio Nusa",
-      "weighted": 7.0,
-      "wc2026_goals": 1
-     }
-    ]
-   },
-   "h2h": {
-    "played": 4,
-    "wins_a": 0,
-    "draws": 2,
-    "wins_b": 2,
-    "recent": [
-     {
-      "date": "2006-08-16",
-      "score": "Norway 1-1 Brazil",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1998-06-23",
-      "score": "Brazil 1-2 Norway",
-      "tournament": "FIFA World Cup"
-     },
-     {
-      "date": "1997-05-30",
-      "score": "Norway 4-2 Brazil",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1988-07-28",
-      "score": "Norway 1-1 Brazil",
-      "tournament": "Friendly"
-     }
-    ]
-   },
-   "analysis": [
-    "**Ratings.** Brazil enter this tie rated 2106 on our Elo scale against Norway's 1998 (+108 edge for Brazil). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, East Rutherford, United States). That rating gap alone translates to a 65.1% win expectation for Brazil before form and finishing are considered.",
-    "**Form and tournament shape.** Brazil's last five: W-W-W-D-W (weighted points share 83.0%); Norway's: W-L-W-W-D (66.9%). At this World Cup Brazil are 3W-1D-0L with 9 scored / 2 conceded, while Norway are 3W-0D-1L (10/8). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=2.07 for Brazil and \u03bb=1.70 for Norway.",
-    "**Key players.** Brazil lean on Vin\u00edcius J\u00fanior (4 at this World Cup); Norway lean on Erling Haaland (5 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Brazil, Norway.",
-    "**Head-to-head.** These sides have met 4 times: 0 wins for Brazil, 2 draws, 2 for Norway. Most recent: Norway 1-1 Brazil (2006); Brazil 1-2 Norway (1998); Norway 4-2 Brazil (1997). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
-    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Brazil 45.8% / draw 22.7% / Norway 31.5% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving Brazil to advance in 58.0% of outcomes. Fair decimal odds: Brazil 1.72, Norway 2.38. Anything materially better than those numbers at a sportsbook would represent model value on Brazil."
-   ]
-  },
-  {
-   "home": "Mexico",
-   "away": "England",
-   "date": "2026-07-05",
-   "city": "Mexico City",
-   "country": "Mexico",
-   "stage": "Round of 16",
-   "home_field": true,
-   "elo": {
-    "home": 2044,
-    "away": 2109
-   },
-   "form": {
-    "home": "WWWWW",
-    "away": "WWDWW",
-    "home_score": 92.6,
-    "away_score": 80.0
-   },
-   "wc_record": {
-    "home": {
-     "p": 4,
-     "w": 4,
-     "d": 0,
-     "l": 0,
-     "gf": 8,
-     "ga": 0
-    },
-    "away": {
-     "p": 4,
-     "w": 3,
-     "d": 1,
-     "l": 0,
-     "gf": 8,
-     "ga": 3
-    }
-   },
-   "lambdas": {
-    "home": 0.74,
-    "away": 1.15
-   },
-   "prob90": {
-    "home": 22.3,
-    "draw": 33.5,
-    "away": 44.2
-   },
-   "advance": {
-    "home": 37.3,
-    "away": 62.7
-   },
-   "odds": {
-    "home_win90": 4.49,
-    "draw90": 2.98,
-    "away_win90": 2.26,
-    "home_advance": 2.68,
-    "away_advance": 1.59
-   },
-   "likely_scores": [
-    {
-     "score": "0-0",
-     "p": 0.164
-    },
-    {
-     "score": "0-1",
-     "p": 0.161
-    },
-    {
-     "score": "1-1",
-     "p": 0.141
-    }
-   ],
-   "top_scorers": {
-    "home": [
-     {
-      "name": "Ra\u00fal Jim\u00e9nez",
-      "weighted": 7.0,
-      "wc2026_goals": 2
-     },
-     {
-      "name": "Juli\u00e1n Qui\u00f1ones",
-      "weighted": 6.0,
-      "wc2026_goals": 3
-     },
-     {
-      "name": "C\u00e9sar Montes",
-      "weighted": 3.0,
-      "wc2026_goals": 0
-     }
-    ],
-    "away": [
-     {
-      "name": "Harry Kane",
-      "weighted": 24.0,
-      "wc2026_goals": 5
-     },
-     {
-      "name": "Jude Bellingham",
-      "weighted": 7.0,
-      "wc2026_goals": 2
-     },
-     {
-      "name": "Declan Rice",
-      "weighted": 3.0,
-      "wc2026_goals": 0
-     }
-    ]
-   },
-   "h2h": {
-    "played": 10,
-    "wins_a": 2,
-    "draws": 1,
-    "wins_b": 7,
-    "recent": [
-     {
-      "date": "2010-05-24",
-      "score": "England 3-1 Mexico",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "2001-05-25",
-      "score": "England 4-0 Mexico",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1997-03-29",
-      "score": "England 2-0 Mexico",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1986-05-17",
-      "score": "Mexico 0-3 England",
-      "tournament": "Friendly"
-     },
-     {
-      "date": "1985-06-09",
-      "score": "Mexico 1-0 England",
-      "tournament": "Friendly"
-     }
-    ]
-   },
-   "analysis": [
-    "**Ratings.** Mexico enter this tie rated 2044 on our Elo scale against England's 2109 (-65 edge for Mexico). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus \u2014 which applies, as Mexico play on home soil in Mexico City. That rating gap alone translates to a 52.2% win expectation for Mexico before form and finishing are considered.",
-    "**Form and tournament shape.** Mexico's last five: W-W-W-W-W (weighted points share 92.6%); England's: W-W-D-W-W (80.0%). At this World Cup Mexico are 4W-0D-0L with 8 scored / 0 conceded, while England are 3W-1D-0L (8/3). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=0.74 for Mexico and \u03bb=1.15 for England.",
-    "**Key players.** Mexico lean on Ra\u00fal Jim\u00e9nez (2 at this World Cup); England lean on Harry Kane (5 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Mexico, England.",
-    "**Head-to-head.** These sides have met 10 times: 2 wins for Mexico, 1 draws, 7 for England. Most recent: England 3-1 Mexico (2010); England 4-0 Mexico (2001); England 2-0 Mexico (1997). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
-    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Mexico 22.3% / draw 33.5% / England 44.2% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving England to advance in 62.7% of outcomes. Fair decimal odds: Mexico 2.68, England 1.59. Anything materially better than those numbers at a sportsbook would represent model value on Mexico."
-   ]
-  },
   {
    "home": "Argentina",
    "away": "Egypt",
@@ -1006,6 +717,153 @@
     "**Head-to-head.** These sides have met 6 times: 4 wins for France, 2 draws, 0 for Morocco. Most recent: France 2-0 Morocco (2022); France 2-2 Morocco (2007); Morocco 1-5 France (2000). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
     "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives France 27.4% / draw 32.7% / Morocco 39.9% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving Morocco to advance in 57.3% of outcomes. Fair decimal odds: France 2.34, Morocco 1.75. Anything materially better than those numbers at a sportsbook would represent model value on Morocco."
    ]
+  },
+  {
+   "home": "Norway",
+   "away": "England",
+   "date": "2026-07-11",
+   "city": "Miami Gardens",
+   "country": "United States",
+   "stage": "Quarter-final",
+   "home_field": false,
+   "elo": {
+    "home": 2037,
+    "away": 2141
+   },
+   "form": {
+    "home": "WWLWW",
+    "away": "WWWDW",
+    "home_score": 71.9,
+    "away_score": 83.0
+   },
+   "wc_record": {
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 0,
+     "l": 1,
+     "gf": 12,
+     "ga": 9
+    },
+    "away": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 11,
+     "ga": 5
+    }
+   },
+   "lambdas": {
+    "home": 1.19,
+    "away": 2.23
+   },
+   "prob90": {
+    "home": 18.5,
+    "draw": 21.5,
+    "away": 60.0
+   },
+   "advance": {
+    "home": 26.9,
+    "away": 73.1
+   },
+   "odds": {
+    "home_win90": 5.4,
+    "draw90": 4.65,
+    "away_win90": 1.67,
+    "home_advance": 3.72,
+    "away_advance": 1.37
+   },
+   "likely_scores": [
+    {
+     "score": "1-2",
+     "p": 0.097
+    },
+    {
+     "score": "1-1",
+     "p": 0.096
+    },
+    {
+     "score": "0-2",
+     "p": 0.082
+    }
+   ],
+   "top_scorers": {
+    "home": [
+     {
+      "name": "Erling Haaland",
+      "weighted": 37.0,
+      "wc2026_goals": 7
+     },
+     {
+      "name": "Alexander S\u00f8rloth",
+      "weighted": 8.0,
+      "wc2026_goals": 0
+     },
+     {
+      "name": "Antonio Nusa",
+      "weighted": 7.0,
+      "wc2026_goals": 1
+     }
+    ],
+    "away": [
+     {
+      "name": "Harry Kane",
+      "weighted": 26.0,
+      "wc2026_goals": 6
+     },
+     {
+      "name": "Jude Bellingham",
+      "weighted": 11.0,
+      "wc2026_goals": 4
+     },
+     {
+      "name": "Declan Rice",
+      "weighted": 3.0,
+      "wc2026_goals": 0
+     }
+    ]
+   },
+   "h2h": {
+    "played": 12,
+    "wins_a": 2,
+    "draws": 3,
+    "wins_b": 7,
+    "recent": [
+     {
+      "date": "2014-09-03",
+      "score": "England 1-0 Norway",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "2012-05-26",
+      "score": "Norway 0-1 England",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1995-10-11",
+      "score": "Norway 0-0 England",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1994-05-22",
+      "score": "England 0-0 Norway",
+      "tournament": "Friendly"
+     },
+     {
+      "date": "1993-06-02",
+      "score": "Norway 2-0 England",
+      "tournament": "FIFA World Cup qualification"
+     }
+    ]
+   },
+   "analysis": [
+    "**Ratings.** Norway enter this tie rated 2037 on our Elo scale against England's 2141 (-104 edge for Norway). Elo here is fitted over every official international since 1872 with a K-factor of 60 for World Cup matches, a goal-difference multiplier, and an 80-point home bonus (not applied: neutral venue, Miami Gardens, United States). That rating gap alone translates to a 35.5% win expectation for Norway before form and finishing are considered.",
+    "**Form and tournament shape.** Norway's last five: W-W-L-W-W (weighted points share 71.9%); England's: W-W-W-D-W (83.0%). At this World Cup Norway are 4W-0D-1L with 12 scored / 9 conceded, while England are 4W-1D-0L (11/5). Those attacking and defensive rates, decayed over the last four years and up-weighted for competitive matches, set the Poisson goal expectations at \u03bb=1.19 for Norway and \u03bb=2.23 for England.",
+    "**Key players.** Norway lean on Erling Haaland (7 at this World Cup); England lean on Harry Kane (6 at this World Cup). Teams with a striker on 3+ tournament goals receive a +4% expected-goals boost in the model \u2014 applied to Norway, England.",
+    "**Head-to-head.** These sides have met 12 times: 2 wins for Norway, 3 draws, 7 for England. Most recent: England 1-0 Norway (2014); Norway 0-1 England (2012); Norway 0-0 England (1995). H2H is reported for context but is not an input \u2014 historical pairings this sparse add noise, not signal.",
+    "**The probability call.** Multiplying the two independent Poisson margins (with a Dixon-Coles \u03c1=-0.10 correction that reallocates mass toward low-scoring draws) gives Norway 18.5% / draw 21.5% / England 60.0% over 90 minutes. Because this is a knockout, the draw mass is resolved through a one-third-intensity extra-time Poisson and a 50/50 shootout, leaving England to advance in 73.1% of outcomes. Fair decimal odds: Norway 3.72, England 1.37. Anything materially better than those numbers at a sportsbook would represent model value on Norway."
+   ]
   }
  ],
  "scorecard": [
@@ -1024,106 +882,108 @@
    "prob": 90.8,
    "correct": true,
    "note": "Mbapp\u00e9's 70th-minute penalty \u2014 his 7th goal of the tournament \u2014 decided a bruising tie."
+  },
+  {
+   "match": "Brazil vs Norway",
+   "result": "Brazil 1-2 Norway",
+   "picked": "Brazil",
+   "prob": 58.0,
+   "correct": false,
+   "note": "The 42% shot landed. Haaland struck twice in the final 11 minutes (79', 90') after Guimar\u00e3es missed an early penalty; Neymar's stoppage-time spot-kick came too late. Norway's first quarter-final in their first World Cup for 28 years."
+  },
+  {
+   "match": "Mexico vs England",
+   "result": "Mexico 2-3 England",
+   "picked": "England",
+   "prob": 62.7,
+   "correct": true,
+   "note": "Bellingham's quickfire double (36', 38') and a Kane penalty outgunned the Azteca in what many called the game of the tournament."
   }
  ],
  "title_odds": [
   {
    "team": "Argentina",
-   "champion": 30.6,
-   "final": 47.0,
-   "semifinal": 71.0,
-   "odds": 3.27
+   "champion": 30.2,
+   "final": 47.2,
+   "semifinal": 71.2,
+   "odds": 3.31
   },
   {
    "team": "Morocco",
-   "champion": 18.5,
-   "final": 36.5,
-   "semifinal": 56.4,
-   "odds": 5.4
+   "champion": 17.9,
+   "final": 35.1,
+   "semifinal": 57.4,
+   "odds": 5.59
   },
   {
    "team": "Spain",
-   "champion": 18.4,
-   "final": 30.7,
-   "semifinal": 57.2,
-   "odds": 5.44
-  },
-  {
-   "team": "France",
-   "champion": 11.0,
-   "final": 26.6,
-   "semifinal": 43.6,
-   "odds": 9.09
+   "champion": 17.7,
+   "final": 30.3,
+   "semifinal": 56.9,
+   "odds": 5.65
   },
   {
    "team": "England",
-   "champion": 9.5,
-   "final": 20.8,
-   "semifinal": 43.7,
-   "odds": 10.53
+   "champion": 15.2,
+   "final": 34.8,
+   "semifinal": 73.3,
+   "odds": 6.58
+  },
+  {
+   "team": "France",
+   "champion": 10.0,
+   "final": 23.6,
+   "semifinal": 42.6,
+   "odds": 10.05
   },
   {
    "team": "Portugal",
-   "champion": 3.4,
-   "final": 8.0,
-   "semifinal": 21.1,
-   "odds": 29.24
-  },
-  {
-   "team": "Brazil",
-   "champion": 2.0,
-   "final": 7.2,
-   "semifinal": 23.4,
-   "odds": 50.38
+   "champion": 3.1,
+   "final": 7.9,
+   "semifinal": 21.5,
+   "odds": 32.41
   },
   {
    "team": "Colombia",
-   "champion": 2.0,
-   "final": 5.9,
-   "semifinal": 16.7,
-   "odds": 49.75
+   "champion": 2.1,
+   "final": 6.0,
+   "semifinal": 16.8,
+   "odds": 48.43
   },
   {
    "team": "Belgium",
    "champion": 1.7,
-   "final": 5.1,
-   "semifinal": 18.5,
-   "odds": 58.82
-  },
-  {
-   "team": "Mexico",
-   "champion": 1.5,
-   "final": 5.9,
-   "semifinal": 19.1,
-   "odds": 65.57
+   "final": 5.3,
+   "semifinal": 18.6,
+   "odds": 58.31
   },
   {
    "team": "Norway",
-   "champion": 0.6,
-   "final": 3.0,
-   "semifinal": 13.9,
-   "odds": 157.48
+   "champion": 1.5,
+   "final": 6.5,
+   "semifinal": 26.7,
+   "odds": 68.97
   },
   {
    "team": "Switzerland",
-   "champion": 0.5,
-   "final": 2.0,
-   "semifinal": 8.0,
-   "odds": 194.17
+   "champion": 0.4,
+   "final": 1.9,
+   "semifinal": 7.4,
+   "odds": 250.0
   },
   {
    "team": "Egypt",
    "champion": 0.2,
-   "final": 0.9,
-   "semifinal": 4.3,
-   "odds": 555.56
+   "final": 1.0,
+   "semifinal": 4.5,
+   "odds": 434.78
   },
   {
    "team": "United States",
    "champion": 0.1,
-   "final": 0.5,
-   "semifinal": 3.2,
-   "odds": 1538.46
+   "final": 0.4,
+   "semifinal": 3.0,
+   "odds": 1176.47
   }
  ],
  "elo_top": [
@@ -1141,11 +1001,7 @@
   },
   {
    "team": "England",
-   "elo": 2109
-  },
-  {
-   "team": "Brazil",
-   "elo": 2106
+   "elo": 2141
   },
   {
    "team": "Colombia",
@@ -1156,20 +1012,24 @@
    "elo": 2070
   },
   {
+   "team": "Brazil",
+   "elo": 2067
+  },
+  {
    "team": "Morocco",
    "elo": 2053
   },
   {
-   "team": "Mexico",
-   "elo": 2044
+   "team": "Norway",
+   "elo": 2037
   },
   {
    "team": "Switzerland",
    "elo": 2015
   },
   {
-   "team": "Norway",
-   "elo": 1998
+   "team": "Mexico",
+   "elo": 2013
   },
   {
    "team": "Belgium",
